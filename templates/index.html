@@ -10,19 +10,23 @@
         <label>Username
             <input name="username" type="text" value='{{username}}' />
         </label>
-        <p class="error">{{username_error}}</p>
+        <span class="error">{{username_error}}</span>
+        <br>
         <label>Password
             <input name="password" type="password" value='{{password}}' />
         </label>
-        <p class="error">{{password_error}}</p>
+        <span class="error">{{password_error}}</span>
+        <br>
         <label>Verify Password
             <input name="verify" type="password" value='{{verify}}' />    
         </label>
-        <p class="error">{{verify_error}}</p>
+        <span class="error">{{verify_error}}</span>
+        <br>
         <label>Email (optional)
             <input name="email" type="text" value='{{email}}' />
         </label>
-        <p class="error">{{email_error}}</p>
+        <span class="error">{{email_error}}</span>
+        </br>
         <input type="submit" value="Submit Query" />
     </form>
 </body>
