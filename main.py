@@ -78,7 +78,7 @@ def errors():
 @app.route("/Welcome")
 def welcome():
     username = request.args.get('username')
-    return render_template('welcome.html', username=username)
+    return render_template('welcome.html', username=username, title="Welcome")
 
 
 app.run()
